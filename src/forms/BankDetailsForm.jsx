@@ -146,7 +146,6 @@ function BankDetailsForm() {
         </label>
         <InputField
           name="iban"
-          fieldType={"number"}
           placeholder="Enter your IBAN"
           value={iban}
           onChange={handleChange}
